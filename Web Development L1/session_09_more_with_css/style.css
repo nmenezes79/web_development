@@ -1,0 +1,30 @@
+/* universal selector */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+/* element selector */
+p {
+	border: 1px solid #ecf0f1;
+	width: 70%;
+	padding: 10px;
+	background-color: #1abc9c;
+	color: #ecf0f1;
+	margin: 20px;
+}
+
+/* class selector */
+.section {
+	background-color: #3498db;
+}
+
+/* id selector */
+#main {
+	background-color: #9b59b6;
+}
