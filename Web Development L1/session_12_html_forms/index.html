@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- font awesome icon -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+			integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="style.css">
+		<title>session_12_html_forms</title>
+	</head>
+
+	<body>
+		<h1 style="text-align: center; margin: 20px auto;">session_12_html_forms</h1>
+
+		<div class="form-container">
+			<h3>Student's Registration Form</h3>
+
+			<form action="/submit-form" target="_blank" method="get">
+				<!-- text -->
+				<div class="form-group">
+					<label for="name">Full Name</label>
+					<input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+				</div>
+
+				<!-- password -->
+				<div class="form-group">
+					<label for="password">Password</label>
+					<input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+				</div>
+
+				<!-- email -->
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+				</div>
+
+				<!-- number -->
+				<div class="form-group">
+					<label for="age">Age</label>
+					<input type="number" id="age" name="age" min="5" max="100" required>
+				</div>
+
+				<!-- date -->
+				<div class="form-group">
+					<label for="dob">Date of Birth</label>
+					<input type="date" id="dob" name="dob" required>
+				</div>
+
+				<!-- radio -->
+				<div class="form-group">
+					<label for="gender">Gender</label>
+					<div class="radio-group">
+						<label for="gender"><input type="radio" name="gender" value="male">Male</label>
+						<label for="gender"><input type="radio" name="gender" value="female">Female</label>
+						<label for="gender"><input type="radio" name="gender" value="other">Other</label>
+					</div>
+				</div>
+
+				<!-- checkbox -->
+				<div class="form-group">
+					<label for="subject">Subjects</label>
+					<div class="checkbox-group">
+						<label for="subject"><input type="checkbox" name="subject" value="html">HTML</label>
+						<label for="subject"><input type="checkbox" name="subject" value="css">CSS</label>
+						<label for="subject"><input type="checkbox" name="subject" value="javascript">Javascript</label>
+					</div>
+				</div>
+
+				<!-- select/option -->
+				<div class="form-group">
+					<label for="course">Select Course</label>
+					<select name="course" id="course">
+						<option value="">-- Select a Cource --</option>
+						<option value="web-development">Web Development</option>
+						<option value="python">Python</option>
+						<option value="data-science">Data Science</option>
+						<option value="ai">Artificial Intelligence</option>
+					</select>
+				</div>
+
+				<!-- textarea -->
+				<div class="form-group">
+					<label for="message">About Yourself</label>
+					<textarea name="message" id="message" rows="4" placeholder="Tell Us Something About Yourself"></textarea>
+				</div>
+
+				<!-- buttons -->
+				<div class="buttons">
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+					<button type="button" onclick="alert('Hello! Welcome To The Form!')"><i class="fa fa-cloud-download" aria-hidden="true"></i> Download</button>
+				</div>
+			</form>
+		</div>
+
+	</body>
+
+</html>
