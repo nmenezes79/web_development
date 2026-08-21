@@ -1,0 +1,129 @@
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* body */
+body {
+	font-family: sans-serif;
+	background: linear-gradient(135deg, #dbeafe, #eff6ff);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+/* main container */
+.container {
+	width: 100%;
+	max-width: 850px;
+	background-color: #fff;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* header */
+.header {
+	background: linear-gradient(135deg, #2563eb, #1e40af);
+	padding: 20px;
+}
+
+/* navigation */
+.header ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.header li {
+	color: #fff;
+	padding: 12px 25px;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.header li:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header li:first-child {
+	background-color: #fff;
+	color: #2563eb;
+	font-weight: bold;
+}
+
+/* form */
+form {
+	padding: 35px;
+}
+
+/* form grid */
+form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 25px;
+}
+
+/* form group */
+.form-group {
+	display: flex;
+	flex-direction: column;
+}
+
+/* labels */
+label {
+	font-size: 15px;
+	font-weight: bold;
+	color: #374151;
+	margin-bottom: 8px;
+}
+
+/* input */
+input[type="text"] {
+	width: 100%;
+	padding: 14px 16px;
+	border: 2px solid #d1d5db;
+	border-radius: 8px;
+	font-size: 15px;
+	outline: none;
+	transition: 0.3s;
+}
+
+/* input:focus */
+input[type="text"]:focus {
+	border-color: #2563eb;
+	box-shadow: 0 0 0 3px rgba(37,99, 235, 0.15);
+}
+
+/* placeholder */
+input::placeholder {
+	color: #9ca3af;
+}
+
+/* search button */
+.search-button {
+	grid-column: 1 / -1;
+	padding: 15px;
+	border: none;
+	border-radius: 8px;
+	background: linear-gradient(135deg, #2563eb, #1d4ed8);
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.search-button:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 8px 15px rgba(37, 99, 235, 0.3);
+}
+
+.search-button:active {
+	transform: translateY(0);
+}
