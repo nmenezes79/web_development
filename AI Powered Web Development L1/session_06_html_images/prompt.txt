@@ -1,0 +1,8 @@
+example 1 - baby_elephant
+'A baby elephant + splashing water + cartoon type + bright colors'
+
+example 2 - grey_kitten
+'A grey kitten + sleeping on a book + watercolor style + warm and cozy'
+
+example 3 - blue_robot
+'A blue robot + waving hello + 3D cartoon + friendly and cute'
