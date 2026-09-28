@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>session_10_html_tables</title>
+
+		<style>
+			body {
+				font-family: sans-serif;
+			}
+
+			table, th, td {
+				border: 2px solid red;
+			}
+
+			table {
+				width: 30%;
+				margin: 20px auto;
+				border-spacing: 5px;
+				/* border-collapse: collapse; */
+			}
+
+			th {
+				background-color: lightblue;
+				padding: 5px;
+			}
+
+			td {
+				background-color: lightgreen;
+				padding: 5px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<h1 style="text-align: center;">session_10_html_tables</h1>
+
+		<!-- table -->
+		<div>
+			<table>
+				<!-- table row (tr) -->
+				<tr>
+					<!-- table header (th) -->
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Age</th>
+				</tr>
+				<tr>
+					<!-- table data (td) -->
+					<td>Jill</td>
+					<td>Smith</td>
+					<td>50</td>
+				</tr>
+				<tr>
+					<td>Eve</td>
+					<td>Jackson</td>
+					<td>94</td>
+				</tr>
+				<tr>
+					<td>John</td>
+					<td>Doe</td>
+					<td>80</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- rowspan -->
+		<div>
+			<table>
+				<tr>
+					<th>Name</th>
+					<td>John Smith</td>
+				</tr>
+				<tr>
+					<th rowspan="2">Contact No</th>
+					<td>555-1111</td>
+				</tr>
+				<tr>
+					<td>555-2222</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- colspan -->
+		<div>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th colspan="2">Contact Number</th>
+				</tr>
+				<tr>
+					<td>Eve Jackson</td>
+					<td>555-1111</td>
+					<td>555-2222</td>
+				</tr>
+			</table>
+		</div>
+
+	</body>
+
+</html>
