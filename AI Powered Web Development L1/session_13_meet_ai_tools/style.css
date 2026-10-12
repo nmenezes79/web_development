@@ -1,0 +1,43 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #071a3d;
+	color: white;
+	margin: 0;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: gold;
+}
+
+.subtitle {
+	color: skyblue;
+	font-style: italic;
+	text-align: center;
+	font-size: 18px;
+}
+
+.fact {
+	background-color: #0b2a5b;
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+h2 {
+	color: gold;
+}
+
+.fact p {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+footer {
+	text-align: center;
+	color: skyblue;
+	margin-top: 30px;
+	padding: 20px;
+}
