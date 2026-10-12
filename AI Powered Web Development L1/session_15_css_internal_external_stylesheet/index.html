@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>session_15_css_internal_external_stylesheet</title>
+
+		<style>
+			body {
+				font-family: sans-serif;
+				background-color: #fff5e6;
+				margin: 0;
+				padding: 0;
+			}
+
+			#header {
+				background-color: #d4450a;
+				color: #fff;
+				text-align: center;
+				padding: 10px;
+			}
+
+			#header p {
+				font-style: italic;
+				color: #ffd9c0;
+				margin: 0;
+			}
+
+			.recipe-section {
+				max-width: 750px;
+				margin: 18px auto;
+				background-color: #fff;
+				padding: 20px;
+				border-radius: 8px;
+				border-left: 5px solid #d4450a;
+				box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+			}
+
+			.recipe-section h2 {
+				color: #d4450a;
+				margin-top: 0;
+			}
+
+			.recipe-section img {
+				width: 100%;
+				height: 220px;
+				object-fit: cover;
+				border-radius: 6px;
+			}
+
+			.ingredients {
+				color: #2e7d32;
+				font-weight: bold;
+			}
+
+			#footer {
+				background-color: #d4450a;
+				color: #fff;
+				text-align: center;
+				padding: 12px;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="header">
+			<h1>Riya's Recipe Corner</h1>
+			<p>Home - cooked goodness, one recipe at a time!</p>
+		</div>
+
+		<div class="recipe-section">
+			<h2>Today's Special: Vegetable Biryani</h2>
+
+			<img src="https://images.squarespace-cdn.com/content/v1/5f063187ead18a2e98ba7f9b/3cb31d45-e7c7-4e0d-8da1-24a02c2b6024/Dhamaka_RGB.jpg" alt="vegetable briyani">
+		</div>
+
+		<div class="recipe-section">
+			<h2>Ingredients</h2>
+			<ul>
+				<li><span class="ingredients">2 Cups</span> Basmati Rice</li>
+				<li><span class="ingredients">1 Cups</span> Mixed Vegetable</li>
+				<li><span class="ingredients">2 Cups</span> Ghee or Butter</li>
+				<li><span class="ingredients">1 Cups</span> Cumin Seeds</li>
+				<li><span class="ingredients">Salt</span> To Add Taste</li>
+			</ul>
+		</div>
+
+		<div class="recipe-section">
+			<h2>Steps</h2>
+			<p>Step 1: Wash and soak rice for 30 minutes.</p>
+			<p>Step 2: Heat ghee and add cumin seeds.</p>
+			<p>Step 3: Add vegetable, cook for 5 minutes.</p>
+			<p>Step 4: Add rice, and salt. Cook on low heat for 20 minutes.</p>
+			<p>Step 5: Fluff with a fork and serve hot!</p>
+		</div>
+
+		<div id="footer">Recipe by Riya | Cook with love!</div>
+	</body>
+
+</html>
