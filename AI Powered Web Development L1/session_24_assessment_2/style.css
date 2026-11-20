@@ -1,0 +1,158 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Warm Gradient Background for Entire Body */
+body {
+	font-family: 'Georgia', serif;
+	background: linear-gradient(135deg, #A47E3B, #BF9742);
+	color: #2c1a0e;
+	min-height: 100vh;
+}
+
+/* Top Banner with Coffee-Themed Background Image */
+.banner {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+		url('https://unsplash.com');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 60px;
+}
+
+/* Navigation Menu Table Layout */
+.nav-table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: rgba(30, 18, 10, 0.75);
+}
+
+.nav-table td {
+	text-align: center;
+	padding: 18px;
+}
+
+.nav-table a {
+	color: #FFD700;
+	/* Yellow colour */
+	font-size: 1.35rem;
+	/* Large font size */
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px 16px;
+	border-radius: 6px;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-table a:hover {
+	background-color: #FFD700;
+	color: #2c1a0e;
+}
+
+/* Large Centered Welcome Heading */
+.hero-content h1 {
+	text-align: center;
+	color: #FFD700;
+	/* Yellow */
+	font-size: 3.4rem;
+	padding: 80px 20px 40px;
+	text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Our Vision Section */
+.vision-section {
+	max-width: 1050px;
+	margin: 40px auto;
+	padding: 35px;
+	background-color: rgba(255, 250, 240, 0.9);
+	border-radius: 14px;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.vision-section h2 {
+	font-size: 2.2rem;
+	margin-bottom: 20px;
+	color: #4a2c11;
+}
+
+.vision-img {
+	float: left;
+	width: 340px;
+	height: 230px;
+	object-fit: cover;
+	border-radius: 12px;
+	margin-right: 28px;
+	margin-bottom: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.vision-text {
+	font-size: 1.3rem;
+	/* Large font size */
+	padding: 10px 5px;
+	line-height: 1.8;
+	/* Appropriate spacing */
+}
+
+.clear {
+	clear: both;
+}
+
+/* Choose Your Favourite Coffee Section */
+.gallery-section {
+	max-width: 1050px;
+	margin: 40px auto;
+	padding: 35px;
+	background-color: rgba(255, 250, 240, 0.9);
+	border-radius: 14px;
+	text-align: center;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-section h2 {
+	font-size: 2.2rem;
+	margin-bottom: 25px;
+	color: #4a2c11;
+}
+
+.coffee-table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 20px;
+}
+
+.coffee-table td {
+	background-color: #ffffff;
+	padding: 16px;
+	border-radius: 12px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.coffee-table img {
+	width: 240px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-bottom: 12px;
+}
+
+.coffee-table p {
+	font-size: 1.15rem;
+	font-weight: bold;
+	color: #3e2723;
+}
+
+/* Footer */
+footer {
+	background-color: #d3d3d3;
+	/* Light grey background */
+	text-align: center;
+	padding: 22px;
+	font-size: 1.15rem;
+	/* Medium font size */
+	color: #222222;
+	margin-top: 40px;
+	font-weight: bold;
+}
